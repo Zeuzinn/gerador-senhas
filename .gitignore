@@ -1,0 +1,29 @@
+# __pycache__ e arquivos compilados
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ambiente virtual
+venv/
+.env/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários de editores
+*.swp
+*.swo
+*.bak
+
+# Configurações específicas de IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# Arquivos de log (opcional)
+*.log
+
+# Ignora imagens soltas na raiz, mas não em assets/
+*.png
+!assets/*.png
